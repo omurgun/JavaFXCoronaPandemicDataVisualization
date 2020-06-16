@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1300.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CoronaPandemic.Controller.Graph1Controller">
+   <children>
+      <TableView fx:id="tblView" prefHeight="800.0" prefWidth="1050.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="0.0">
+        <columns>
+            <TableColumn fx:id="colCountry" editable="false" prefWidth="95.0" text="Country" />
+            <TableColumn fx:id="colTotalCases" editable="false" prefWidth="134.0" text="Total Cases" />
+          <TableColumn fx:id="colNewCases" editable="false" prefWidth="180.0" text="New Cases" />
+          <TableColumn fx:id="colTotalDeaths" editable="false" prefWidth="157.0" text="Total Deaths" />
+            <TableColumn fx:id="colNewDeaths" editable="false" prefWidth="112.0" text="New Deaths" />
+            <TableColumn fx:id="colPopulation" editable="false" prefWidth="109.0" text="Population" />
+            <TableColumn fx:id="colMortality" editable="false" prefWidth="123.0" text="Mortality" />
+            <TableColumn fx:id="colAttackRate" editable="false" prefWidth="141.0" text="Attack Rate" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnData" layoutX="1048.0" layoutY="24.0" mnemonicParsing="false" onAction="#DataEvent" prefHeight="75.0" prefWidth="205.0" style="-fx-background-color: #E77013;" text="Show Table" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

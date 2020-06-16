@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CoronaPandemic.Controller.GraphManager">
+   <children>
+      <Button fx:id="btnChangeGraph2" layoutX="-6.0" layoutY="178.0" mnemonicParsing="false" onAction="#eventChangeGraph2" prefHeight="51.0" prefWidth="270.0" style="-fx-background-color: #E77013;" text="Total Cases By Country Graphic" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="180.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnChangeGraph3" layoutX="-6.0" layoutY="269.0" mnemonicParsing="false" onAction="#eventChangeGraph3" prefHeight="51.0" prefWidth="270.0" style="-fx-background-color: #E77013;" text="Total Deaths By Country Graphic" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="260.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnChangeGraph4" layoutX="-6.0" layoutY="320.0" mnemonicParsing="false" onAction="#eventChangeGraph4" prefHeight="51.0" prefWidth="270.0" style="-fx-background-color: #E77013;" text="Total Cases By The Continent Graphic" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="340.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnChangeGraph5" layoutY="404.0" mnemonicParsing="false" onAction="#eventChangeGraph5" prefHeight="51.0" prefWidth="270.0" style="-fx-background-color: #E77013;" text="Total Deaths By The Continent Graphic" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="420.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnChangeGraph1" layoutX="22.0" layoutY="51.0" mnemonicParsing="false" onAction="#eventChangeGraph1" prefHeight="51.0" prefWidth="270.0" style="-fx-background-color: #E77013;" text="Cases And Deaths By Country Table" textAlignment="CENTER" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="100.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="47.0" layoutY="40.0" text="Graph Selection Menu" textAlignment="CENTER" textFill="#ff7400" textOverrun="CENTER_ELLIPSIS" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
